@@ -1,0 +1,168 @@
+COMADAS INICIAIS GIT
+cd c:inicio 
+GIT CLONE = CLONAR
+GIT ADD = PASTAR
+GIT COMMIT = -m 'comentar exenplo'
+GIT PUSH = envioar 
+GIT PULL = renviar
+ para ajundar 
+commit main
+git stash
+git branch -d 
+CDELAB2D20+Aluno@CDELAB2D20 MINGW64 ~
+$ cd c:
+
+CDELAB2D20+Aluno@CDELAB2D20 MINGW64 /c
+$ git clone https://github.com/brunnogt/teste01.git
+Cloning into 'teste01'...
+warning: You appear to have cloned an empty repository.
+
+CDELAB2D20+Aluno@CDELAB2D20 MINGW64 /c
+$ cd teste1
+bash: cd: teste1: No such file or directory
+
+CDELAB2D20+Aluno@CDELAB2D20 MINGW64 /c
+$ git add
+fatal: not a git repository (or any of the parent directories): .git
+
+CDELAB2D20+Aluno@CDELAB2D20 MINGW64 /c
+$ cd teste1
+bash: cd: teste1: No such file or directory
+
+CDELAB2D20+Aluno@CDELAB2D20 MINGW64 /c
+$ cd teste1
+bash: cd: teste1: No such file or directory
+
+CDELAB2D20+Aluno@CDELAB2D20 MINGW64 /c
+$ cd teste01
+
+CDELAB2D20+Aluno@CDELAB2D20 MINGW64 /c/teste01 (main)
+$ git add
+Nothing specified, nothing added.
+hint: Maybe you wanted to say 'git add .'?
+hint: Turn this message off by running
+hint: "git config advice.addEmptyPathspec false"
+
+CDELAB2D20+Aluno@CDELAB2D20 MINGW64 /c/teste01 (main)
+$ git add .
+
+CDELAB2D20+Aluno@CDELAB2D20 MINGW64 /c/teste01 (main)
+$ gti commit -m "primeiro commit"
+bash: gti: command not found
+
+CDELAB2D20+Aluno@CDELAB2D20 MINGW64 /c/teste01 (main)
+$ git commit -m "teste de commit"
+[main (root-commit) 0f56f56] teste de commit
+ Committer: Aluno Senac <Aluno@CDELAB2D20.alunos.sc.senac.br>
+Your name and email address were configured automatically based
+on your username and hostname. Please check that they are accurate.
+You can suppress this message by setting them explicitly. Run the
+following command and follow the instructions in your editor to edit
+your configuration file:
+
+    git config --global --edit
+
+After doing this, you may fix the identity used for this commit with:
+
+    git commit --amend --reset-author
+
+ 1 file changed, 0 insertions(+), 0 deletions(-)
+ create mode 100644 teste1.txt
+
+CDELAB2D20+Aluno@CDELAB2D20 MINGW64 /c/teste01 (main)
+$ git commit -m "primeiro commit"
+On branch main
+Your branch is based on 'origin/main', but the upstream is gone.
+  (use "git branch --unset-upstream" to fixup)
+
+nothing to commit, working tree clean
+
+CDELAB2D20+Aluno@CDELAB2D20 MINGW64 /c/teste01 (main)
+$ git push origin
+Enumerating objects: 3, done.
+Counting objects: 100% (3/3), done.
+Writing objects: 100% (3/3), 226 bytes | 226.00 KiB/s, done.
+Total 3 (delta 0), reused 0 (delta 0), pack-reused 0
+To https://github.com/brunnogt/teste01.git
+ * [new branch]      main -> main
+
+02
+CDELAB2D20+Aluno@CDELAB2D20 MINGW64 ~
+$ cd c:
+CDELAB2D20+Aluno@CDELAB2D20 MINGW64 /c
+$ git clone https://github.com/brunnogt/aluar03.git
+Cloning into 'aluar03'...
+warning: You appear to have cloned an empty repository.
+
+CDELAB2D20+Aluno@CDELAB2D20 MINGW64 /c
+$ cd a
+Arquivos de Programas/ aluar03/
+
+CDELAB2D20+Aluno@CDELAB2D20 MINGW64 /c
+$ cd aluar03/
+
+CDELAB2D20+Aluno@CDELAB2D20 MINGW64 /c/aluar03 (main)
+$ git add .
+
+CDELAB2D20+Aluno@CDELAB2D20 MINGW64 /c/aluar03 (main)
+$ git commit -m "primei commit"
+[main (root-commit) 27ae84d] primei commit
+ Committer: Aluno Senac <Aluno@CDELAB2D20.alunos.sc.senac.br>
+Your name and email address were configured automatically based
+on your username and hostname. Please check that they are accurate.
+You can suppress this message by setting them explicitly. Run the
+following command and follow the instructions in your editor to edit
+your configuration file:
+
+    git config --global --edit
+
+After doing this, you may fix the identity used for this commit with:
+
+    git commit --amend --reset-author
+
+ 1 file changed, 0 insertions(+), 0 deletions(-)
+ create mode 100644 245.txt
+
+CDELAB2D20+Aluno@CDELAB2D20 MINGW64 /c/aluar03 (main)
+$ git push origin
+Enumerating objects: 3, done.
+Counting objects: 100% (3/3), done.
+Writing objects: 100% (3/3), 223 bytes | 223.00 KiB/s, done.
+Total 3 (delta 0), reused 0 (delta 0), pack-reused 0
+To https://github.com/brunnogt/aluar03.git
+ * [new branch]      main -> main
+
+CDELAB2D20+Aluno@CDELAB2D20 MINGW64 /c/aluar03 (main)
+$ git rm 245.txt
+rm '245.txt'
+
+CDELAB2D20+Aluno@CDELAB2D20 MINGW64 /c/aluar03 (main)
+$ git  commit -m "deletar commit"
+[main b044cb7] deletar commit
+ Committer: Aluno Senac <Aluno@CDELAB2D20.alunos.sc.senac.br>
+Your name and email address were configured automatically based
+on your username and hostname. Please check that they are accurate.
+You can suppress this message by setting them explicitly. Run the
+following command and follow the instructions in your editor to edit
+your configuration file:
+
+    git config --global --edit
+
+After doing this, you may fix the identity used for this commit with:
+
+    git commit --amend --reset-author
+
+ 1 file changed, 0 insertions(+), 0 deletions(-)
+ delete mode 100644 245.txt
+
+CDELAB2D20+Aluno@CDELAB2D20 MINGW64 /c/aluar03 (main)
+$ git push origin
+Enumerating objects: 3, done.
+Counting objects: 100% (3/3), done.
+Writing objects: 100% (2/2), 206 bytes | 206.00 KiB/s, done.
+Total 2 (delta 0), reused 0 (delta 0), pack-reused 0
+To https://github.com/brunnogt/aluar03.git
+   27ae84d..b044cb7  main -> main
+
+
+
